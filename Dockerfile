@@ -1,12 +1,28 @@
-# Tags: latest, 3.11.6-debian-10-r41, 3.11.6, 3-debian-10, 3
+# Tags: latest, 3.11.7-debian-10-r2, 3.11.7, 3-debian-10, 3
 FROM bitnami/moodle:latest
-FROM bitnami/moodle:3.11.6-debian-10-r41
-FROM bitnami/moodle:3.11.6
+FROM bitnami/moodle:3.11.7-debian-10-r2
+FROM bitnami/moodle:3.11.7
 FROM bitnami/moodle:3-debian-10
 FROM bitnami/moodle:3
 
 # Tags: _
 FROM bitnami/moodle:_
+
+# Tags: 3.11.7-debian-10-r1
+FROM bitnami/moodle:3.11.7-debian-10-r1
+
+# Tags: 3.11.7-debian-10-r0
+FROM bitnami/moodle:3.11.7-debian-10-r0
+
+# Tags: 3.11.6-debian-10-r43, 3.11.6
+FROM bitnami/moodle:3.11.6-debian-10-r43
+FROM bitnami/moodle:3.11.6
+
+# Tags: 3.11.6-debian-10-r42
+FROM bitnami/moodle:3.11.6-debian-10-r42
+
+# Tags: 3.11.6-debian-10-r41
+FROM bitnami/moodle:3.11.6-debian-10-r41
 
 # Tags: 3.11.6-debian-10-r40
 FROM bitnami/moodle:3.11.6-debian-10-r40
@@ -46,27 +62,3 @@ FROM bitnami/moodle:3.11.6-debian-10-r29
 
 # Tags: 3.11.6-debian-10-r28
 FROM bitnami/moodle:3.11.6-debian-10-r28
-
-# Tags: 3.11.6-debian-10-r27
-FROM bitnami/moodle:3.11.6-debian-10-r27
-
-# Tags: 3.11.6-debian-10-r26
-FROM bitnami/moodle:3.11.6-debian-10-r26
-
-# Tags: 3.11.6-debian-10-r25
-FROM bitnami/moodle:3.11.6-debian-10-r25
-
-# Tags: 3.11.6-debian-10-r24
-FROM bitnami/moodle:3.11.6-debian-10-r24
-
-# Tags: 3.11.6-debian-10-r23
-FROM bitnami/moodle:3.11.6-debian-10-r23
-
-# Tags: 3.11.6-debian-10-r22
-FROM bitnami/moodle:3.11.6-debian-10-r22
-
-# Tags: 3.11.6-debian-10-r21
-FROM bitnami/moodle:3.11.6-debian-10-r21
-
-# Tags: 3.11.6-debian-10-r20
-FROM bitnami/moodle:3.11.6-debian-10-r20
